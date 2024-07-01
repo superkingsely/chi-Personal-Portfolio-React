@@ -80,35 +80,35 @@
 .w-mainCircle > :nth-child(5) {
   top: 10rem;
   left: 15rem;
-  border: 5px solid;
+  /* border: 5px solid; */
 }
 .w-mainCircle > :nth-child(6) {
   top: 14rem;
   left: 12rem;
-  border: 5px solid;
+  /* border: 5px solid; */
 
 }
 .w-mainCircle > :nth-child(7) {
   top: 15rem;
   left: 7rem;
-  border: 5px solid;
+  /* border: 5px solid; */
   /* ddown */
 
 }
 .w-mainCircle > :nth-child(8) {
   top: 14rem;
   left: 2rem;
-  border: 5px solid;
+  /* border: 5px solid; */
 }
 .w-mainCircle > :nth-child(9) {
   left: -1rem;
   top: 10rem;
-  border: 5px solid;
+  /* border: 5px solid; */
 }
 .w-mainCircle > :nth-child(10) {
   top: 5rem;
   left: -2rem;
-  border: 5px solid;
+  /* border: 5px solid; */
 }
 .w-secCircle {
   width: 4rem;

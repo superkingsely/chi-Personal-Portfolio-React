@@ -85,7 +85,7 @@
         flex-direction: column;
         gap: 2rem;
         position: relative;
-        border: 5px solid;
+        /* border: 5px solid; */
     }
     .t-wrapper{
         padding: 0;
