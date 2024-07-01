@@ -31,14 +31,7 @@ const Works = () => {
           </span>
           <span className="cwork" >My Skills</span>
           <span>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
-            <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
-            <br />
-            y dummy text of printingLorem
-            <br />
-            ispum is simpley dummy text of printing
+             i am skilled and can work with easy using the the following tech <br />listed in the skills wheel at the right  and with other tech too.
           </span>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>

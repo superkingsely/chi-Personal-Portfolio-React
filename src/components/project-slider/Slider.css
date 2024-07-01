@@ -1,0 +1,37 @@
+.left{
+    cursor: pointer;
+    transform: rotateX('45deg');
+    position: absolute;
+    left: 0;
+    top: 45%;
+    margin-left: 5%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: aqua;
+}
+.right{
+    cursor: pointer;
+    transform: rotateY('90deg');
+    position: absolute;
+    right: 0;
+    top: 45%;
+    margin-right: 5%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: aqua;
+}
+.slides{
+    transition: all 3s;
+    
+}
+.slides.right{
+    left: 100%;
+}
