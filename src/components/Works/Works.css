@@ -2,10 +2,14 @@
   padding: 0 3rem 0 3rem;
   display: flex;
   height: 90vh;
-  margin-top: 4rem;
+  padding-top: 10vh;
+  /* border: 5px solid; */
 
   /* scroll */
   align-items: center;
+}
+.simg{
+  width: 90px;
 }
 /* left side */
 .awesome {
@@ -56,28 +60,59 @@
   position: absolute;
 }
 .w-mainCircle > :nth-child(1) {
-  top: -3rem;
-  left: 6rem;
+  top: -2rem;
+  left: 7rem;
 }
 .w-mainCircle > :nth-child(2) {
-  left: -3rem;
-  top: 5rem;
+  top: 1rem;
+  left: 13rem;
 }
 .w-mainCircle > :nth-child(3) {
-  left: 6rem;
-  top: 5rem;
+  top: 6rem;
+  left: 7rem;
+  /* center */
 }
 .w-mainCircle > :nth-child(4) {
-  left: 15rem;
   top: 5rem;
+  left: 15rem;
+  /* ts */
 }
 .w-mainCircle > :nth-child(5) {
-  left: 6rem;
-  top: 13rem;
+  top: 10rem;
+  left: 15rem;
+  border: 5px solid;
+}
+.w-mainCircle > :nth-child(6) {
+  top: 14rem;
+  left: 12rem;
+  border: 5px solid;
+
+}
+.w-mainCircle > :nth-child(7) {
+  top: 15rem;
+  left: 7rem;
+  border: 5px solid;
+  /* ddown */
+
+}
+.w-mainCircle > :nth-child(8) {
+  top: 14rem;
+  left: 2rem;
+  border: 5px solid;
+}
+.w-mainCircle > :nth-child(9) {
+  left: -1rem;
+  top: 10rem;
+  border: 5px solid;
+}
+.w-mainCircle > :nth-child(10) {
+  top: 5rem;
+  left: -2rem;
+  border: 5px solid;
 }
 .w-secCircle {
-  width: 6rem;
-  height: 6rem;
+  width: 4rem;
+  height: 4rem;
   position: absolute;
   border-radius: 100%;
   border: 5px solid #ebebeb;
@@ -113,10 +148,13 @@
 }
 
 @media screen and (max-width: 480px) {
+  .cwork{
+    margin-top: 28vh;
+  }
   .works {
     flex-direction: column;
     height: 55rem;
-    padding: 0;
+    padding-top: 60vh;
     gap: 5rem;
   }
 

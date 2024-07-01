@@ -26,11 +26,17 @@ const Services = () => {
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
-        <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
-          <br />
-          ispum is simpley dummy text of printing
-        </spane>
+        <span style={{maxWidth:'250px',fontSize:'19px'}}>
+        As a versatile fullstack developer, I bring expertise in both frontend and backend development. Harnessing my strong JavaScript proficiency, 
+        
+        I specialize in crafting dynamic user interfaces with frameworks like React and Angular. My backend capabilities extend across MongoDB, Firebase, Express, and Node.js, enabling robust server-side solutions.
+<br />
+<br />
+Additionally, leveraging my proficiency in C# technologies such as ASP.NET, Web API, and Azure, I excel in delivering scalable and secure backend architectures. Whether you require frontend innovation or backend optimization.
+<br />
+<br />
+I am passionate about nurturing the next generation of developers. I actively teach programming classes, guiding upcoming developers in mastering essential skills. Whether you need innovative frontend solutions, optimized backend architectures, or educational insights, I offer comprehensive development services tailored to your project's needs.
+        </span>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
         </a>
@@ -46,33 +52,33 @@ const Services = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            heading={"C#"}
+            detail={"ASP.Net,Web-api,Console-app"}
           />
         </motion.div>
         {/* second card */}
         <motion.div
-          initial={{ left: "-11rem", top: "12rem" }}
-          whileInView={{ left: "-4rem" }}
+          initial={{ left: "-2rem", top: "12rem" }}
+          whileInView={{ left: "0rem" }}
           transition={transition}
         >
           <Card
             emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            heading={"JS & TS"}
+            detail={"Html, Css, JavaScript, React, Nodejs, Express and Angular"}
           />
         </motion.div>
         {/* 3rd */}
         <motion.div
           initial={{ top: "19rem", left: "25rem" }}
-          whileInView={{ left: "12rem" }}
+          whileInView={{ left: "14rem" }}
           transition={transition}
         >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
+            heading={"DataBase"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "SQL,MongoDb,Firebase and Azure"
             }
             color="rgba(252, 166, 31, 0.45)"
           />
